@@ -1,0 +1,223 @@
+﻿@charset "utf-8";
+
+/*全局样式---------------------------------------------------------------------------------------------*/
+form{margin:0px;padding:0px;}
+.bai{ color:#fff;}
+.hong{ color:#FF0000;}
+.huang{ color:#a07234;}
+.zhuan{ color:#8d1a67;}
+.bold{ font-weight:bold;}
+.f16{ font-size:16px;}
+.f14{ font-size:14px;}
+.f12{ font-size:12px;}
+.hui3{ color:#333;}
+.hui6{ color:#666666;}
+.lan{ color:#0960a9;}
+.cheng{color:#ff6600;}
+.clear{ clear:both;}
+.left{ float:left;}
+.right{ float:right;}
+.center{text-align:center;}
+.mtop13{ margin-top:13px;}
+.mtop25{ margin-top:25px;}
+.mtop10{ margin-top:10px;}
+.mtop5{ margin-top:5px;}
+.mtop8{ margin-top:8px;}
+.mleft23{ margin-left:23px;}
+.mleft60{ margin-left:60px;}
+.mleft45{ margin-left:45px;}
+.mbottom7{ margin-bottom:7px;}
+.mbottom20{ margin-bottom:20px;}
+.mbottom10{ margin-bottom:10px;}
+.mright10{ margin-right:10px;}
+.ptop5{ padding-top:5px;}
+.padding15{ padding:5px;}
+.padding5{ padding:5px;}
+.beizhu{ width:300px; height:100px;border:1px solid #9dc6ea;padding:2px;line-height:18px;}
+.lineHeight22{ line-height:22px;}
+.lineHeight25{ line-height:25px;}
+.lineHeight20{ line-height:18px;}
+.text{border:1px solid #9dc6ea;height:18px;padding:2px;line-height:18px;}
+.width110{ width:110px;}
+.width200{ width:200px;}
+.width206{ width:208px;}
+.width550{ width:550px;}
+.normal{ font-weight:normal;}
+.lineBottom{ border-bottom:1px dashed #ccc;}
+ul{ list-style-type:none; padding:0; margin:0;}
+.lh6:link,.lh6:visited,.lh6:active{
+	text-decoration:none;
+	color:#666666;
+	overflow:hidden;
+	}
+.lh6:hover{
+	color:#ba2636;
+	text-decoration:none;
+	}
+.lh:link,.lh:visited,.lh:active{
+	text-decoration:none;
+	color:#000;
+	overflow:hidden;
+	}
+.lh:hover{
+	color:#ba2636;
+	text-decoration:underline;
+	}
+.ll:link,.ll:visited,.ll:active{
+	text-decoration:none;
+	color:#0960a9;
+	overflow:hidden;
+	}
+.ll:hover{
+	color:#0960a9;
+	text-decoration:underline;
+	}
+.lw:link,.lw:visited,.lw:active{
+	text-decoration:none;
+	color:#000;
+	padding:2px 2px 0 2px;
+	}
+.lw:hover{
+	color:#fff;
+	padding:2px 2px 0 2px;
+	background-color:#0066CC;
+	}
+
+.onShow,.onFocus,.onError,.onCorrect,.onLoad{
+	padding-left:20px;
+	margin-left:10px;
+	width:14px;
+	height:15px;
+	font-size:12px;
+	line-height:26px;
+}
+
+.onCorrect{
+	background: url(../images/tips.gif) 0 -5px no-repeat;
+	padding-top:2px;
+	color:#4a7d00;
+}
+
+.onError{
+	background: url(../images/tips.gif) 0 -26px no-repeat;
+	padding-top:1px;
+	color:#cd1f00;
+}
+
+.onFocus{
+	background: url(../images/tips.gif) 0 -47px no-repeat;
+	padding-top:2px;
+	color:#007ac5;
+}
+
+.onShow{
+	background: url(../images/tips.gif) 0 -47px no-repeat;
+	padding-top:2px;
+	color:#007ac5;
+}
+
+.onLoad{
+	background: url(../images/onLoad.gif) no-repeat;
+    padding-left:25px;
+	height:16px; 
+	width:16px;
+	padding-bottom:2px;
+	vertical-align:middle;
+}
+
+.bnt{ width:66px;
+	  height:25px; 
+	  text-align:center; 
+	  line-height:25px; 
+	  background-image:url(../images/CzPic.png); 
+	  background-repeat:no-repeat; 
+	  background-position:-474px 0;
+	  border:0px; 
+	  margin-right:7px; 
+	  
+	  padding-top:2px; 
+	  cursor:pointer;}
+.btn{ height:30px;*height:30px;line-height:30px;*line-height:22px;padding:4px 10px;*padding:2px 5px; margin-right:10px;font-size:14px;}
+.btn1{ width:86px; height:33px; text-align:center; background:url(../images/btn.gif) no-repeat; line-height:33px; border:0; font-size:14px; font-weight:bold; color:#058115;cursor:pointer;}
+
+
+/*分页---------------------------------------------------------------------------------------------*/
+.page{
+	float: right;	
+	padding:7px 0;	
+	text-align:right;
+	font-family:"宋体";
+}
+
+.page a{
+	text-decoration:none;
+	border: 1px solid #ddd;
+	font-size:12px;
+	color:#006c98;
+	height:17px;
+	margin-top:2px;
+	text-align: center;
+	margin-left:5px;
+	padding:5px 7px 0 7px;
+	color:#666;
+	float:left;
+	}
+.page a:hover {
+	color:#006c98;
+	border:1px solid #006c98;
+	background-color: #dbf5ff;	
+	text-decoration:none;
+	height:17px;
+	padding:5px 7px 0 7px;
+}
+.page div{ line-height:30px; margin-left:4px;}
+.page input { width:32px;}
+
+
+.page2 { font-family:宋体;}
+.page2 a {text-decoration: underline;color:#000000; }
+.page2 a:hover {color:#005ce5;text-decoration: none;}
+.page2 input { width:32px;}
+#on { border:1px solid #1D619C; background:#1972BD; color:#fff; }
+#recharge-model ul,#recharge-model ul li{display:inline-block;font-size:0;line-height:0;height:120px}
+#recharge-model ul{width:100%}
+#recharge-model ul li{width:50%}
+#recharge-model ul li a{display:block;width:378px;height:100px;margin:10px;background-image:url(/images/new-kc.png);background-image:-webkit-image-set(url(/images/new-kc.png) 1x,url(/images/new-kc@2x.png) 2x);border-radius:4px;overflow:hidden}
+#recharge-model ul li span{display:none}
+#recharge-model ul li a#rm-less{background-position:0 -214px}
+#recharge-model ul li a#rm-more{background-position:0 -314px}
+#recharge-order .uc-forms{width:auto;margin:20px 10px}
+#recharge-order .uc-forms .form-title{width:96px}
+.recharge-demo{padding:10px;background:#fff}
+.recharge-demo img{width:100%}
+#recharge-account-checker{position:relative;margin:0}
+#recharge-account-checker ul,#recharge-account-checker ul li,#recharge-account-checker label,#recharge-account-checker label h4,#recharge-account-checker .tp-ui-forminput{display:inline-block;vertical-align:middle}
+#recharge-account-checker ul,#recharge-account-checker ul li{line-height:0;font-size:0}
+#recharge-account-checker label{background:#fff;display:block;cursor:pointer;height:34px;border:2px #eee solid;margin:5px;border-radius:4px}
+#recharge-account-checker label .tp-ui-forminput,#recharge-account-checker label h4{vertical-align:top}
+#recharge-account-checker label .tp-ui-forminput{margin:1px}
+#recharge-account-checker label h4{padding:0!important;width:115px;height:34px;font-size:0;background-image:url(/images/new-kc.png);background-image:-webkit-image-set(url(/images/new-kc.png) 1x,url(/images/new-kc@2x.png) 2x);background-repeat:no-repeat}
+#recharge-account-checker label:hover,#recharge-account-checker label.active{border-color:#c00}
+#recharge-account-checker label.rac-gsyh h4{background-position:-383px -64px}
+#recharge-account-checker label.rac-cft h4{background-position:-383px -98px}
+#recharge-account-checker label.rac-zfb h4{background-position:-383px -132px}
+#recharge-account-checker1{position:relative;margin:0}
+#recharge-account-checker1 ul,#recharge-account-checker1 ul li,#recharge-account-checker1 label,#recharge-account-checker1 label h4,#recharge-account-checker1 .tp-ui-forminput{display:inline-block;vertical-align:middle}
+#recharge-account-checker1 ul,#recharge-account-checker1 ul li{line-height:0;font-size:0}
+#recharge-account-checker1 label{background:#fff;display:block;cursor:pointer;height:34px;border:2px #eee solid;margin:5px;border-radius:4px}
+#recharge-account-checker1 label .tp-ui-forminput,#recharge-account-checker1 label h4{vertical-align:top}
+#recharge-account-checker1 label .tp-ui-forminput{margin:1px}
+#recharge-account-checker1 label h4{padding:0!important;width:115px;height:34px;font-size:0;background-image:url(/images/new-kc.png);background-image:-webkit-image-set(url(/images/new-kc.png) 1x,url(/images/new-kc@2x.png) 2x);background-repeat:no-repeat}
+#recharge-account-checker1 label:hover,#recharge-account-checker1 label.active{border-color:#c00}
+#recharge-account-checker1 label.rac-gsyh h4{background-position:-383px -64px}
+#recharge-account-checker1 label.rac-cft h4{background-position:-383px -98px}
+#recharge-account-checker1 label.rac-zfb h4{background-position:-383px -132px}
+#recharge-order-refer{overflow:hidden}
+#recharge-order-refer .module{margin:10px}
+#recharge-order-refer td a{color:#f50;padding:0 8px;text-decoration:underline}
+#recharge-order-refer td a:hover{color:#c00}
+#recharge-order-refer .button-group{text-align:center}
+#recharge-tips{text-align:center}
+#recharge-tips a,#recharge-tips em,#recharge-tips span{display:inline-block;padding:0 5px;vertical-align:middle}
+#recharge-tips span#rt-cutdown{font-size:16px;font-weight:700;color:#f50}
+#recharge-tips a#rt-reload{color:#fff;padding:0 16px;margin-left:8px;background:#2ecc71;border:1px #27ae60 solid;border-radius:14px}
